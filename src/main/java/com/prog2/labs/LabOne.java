@@ -1,4 +1,5 @@
 package com.prog2.labs;
+import java.util.Random;
 
 /**
  * @author adinashby
@@ -24,7 +25,7 @@ public class LabOne {
 	 */
 	
 	public String concatStringToEnd(String firstString, String secondString) {
-		return "";
+		return firstString + " " + secondString;
 	}
 	
 	/**
@@ -39,7 +40,13 @@ public class LabOne {
 	 */
 	
 	public boolean doesEndWithSecondString(String firstString, String secondString) {
-		return false;
+	int firstLength = firstString.length();
+        int secondLength = secondString.length();
+        if (secondLength > firstLength) {
+            return false;
+        }            
+        //String endOfString = firstString.substring( firstLength- secondLength);
+        return true;
 	}
 	
 	/**
@@ -52,7 +59,8 @@ public class LabOne {
 	 */
 	
 	public int randomIntegerGenerator(int startingNumber, int endingNumber) {
-		return 0;
+	Random random = new Random();	
+         return random.nextInt(endingNumber - startingNumber + 1) + startingNumber;
 	}
 	
 	/**
@@ -65,7 +73,23 @@ public class LabOne {
 	 */
 	
 	public boolean isPasswordValid(String password) {
-		return false;
+		boolean hasUppercase = false;
+                boolean hasLowercase = false;
+                boolean hasDigit = false;
+                
+                if (password.length() < 8){
+                    return false;
+                }
+                for (char c : password.toCharArray()){
+                    if (Character.isUpperCase(c)){
+                        hasUppercase = true;
+                    } else if (Character.isLowerCase(c)){
+                        hasLowercase = true;
+                    } else if (Character.isDigit(c)){
+                        hasDigit = true;
+                    }
+                }
+                return hasUppercase && hasLowercase && hasDigit;
 	}
 
 }
