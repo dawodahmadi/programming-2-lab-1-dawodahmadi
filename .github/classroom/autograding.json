@@ -1,0 +1,124 @@
+{
+  "tests": [
+    {
+      "name": "concatStringToEndTest1",
+      "setup": "gradle clean",
+      "run": "gradle test --tests LabOneTests.concatStringToEndTest1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 8
+    },
+    {
+      "name": "concatStringToEndTest2",
+      "setup": "",
+      "run": "gradle test --tests LabOneTests.concatStringToEndTest2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 8
+    },
+    {
+      "name": "doesEndWithSecondStringTest1",
+      "setup": "",
+      "run": "gradle test --tests LabOneTests.doesEndWithSecondStringTest1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 8
+    },
+    {
+      "name": "doesEndWithSecondStringTest2",
+      "setup": "",
+      "run": "gradle test --tests LabOneTests.doesEndWithSecondStringTest2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 8
+    },
+    {
+      "name": "doesEndWithSecondStringTest3",
+      "setup": "",
+      "run": "gradle test --tests LabOneTests.doesEndWithSecondStringTest3",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 8
+    },
+    {
+      "name": "randomIntegerGeneratorTest1",
+      "setup": "",
+      "run": "gradle test --tests LabOneTests.doesEndWithSecondStringTest3",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 8
+    },
+    {
+      "name": "randomIntegerGeneratorTest2",
+      "setup": "",
+      "run": "gradle test --tests LabOneTests.randomIntegerGeneratorTest2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 8
+    },
+    {
+      "name": "randomIntegerGeneratorTest3",
+      "setup": "",
+      "run": "gradle test --tests LabOneTests.randomIntegerGeneratorTest3",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 8
+    },
+    {
+      "name": "isPasswordValidTest1",
+      "setup": "",
+      "run": "gradle test --tests LabOneTests.isPasswordValidTest1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "isPasswordValidTest2",
+      "setup": "",
+      "run": "gradle test --tests LabOneTests.isPasswordValidTest2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "isPasswordValidTest3",
+      "setup": "",
+      "run": "gradle test --tests LabOneTests.isPasswordValidTest3",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 8
+    },
+    {
+      "name": "isPasswordValidTest4",
+      "setup": "",
+      "run": "gradle test --tests LabOneTests.isPasswordValidTest4",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 8
+    }
+  ]
+}
